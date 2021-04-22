@@ -1,0 +1,49 @@
+h1 {
+    color: green;
+}
+
+h3 {
+    color: greenyellow;
+    
+}
+
+.carousel-caption {
+    font-size: 22px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 20px;
+    
+}
+
+.flex-cont {
+    display: flex;
+    margin: 20px 0;
+}
+
+.flex-item {
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 0 10px;
+    padding: 10px
+}
+
+.bilderamme {
+    height: 400px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    .flex-cont {
+        flex-direction: column;
+        max-width: 80%;
+        margin: 20px auto;
+    }
+    .flex-item {
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px 10px;
+    padding: 10px
+    }
+    
+}
