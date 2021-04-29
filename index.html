@@ -12,6 +12,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="styles.css">
 	<link rel="icon" type="image/x-icon" href=""/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 </head>
 
 <body>
@@ -24,23 +25,28 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Arngren.net</a>
+      <a class="navbar-brand" href="index.html">Arngren.net</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-     
+     <form class="navbar-form navbar-right" action="/action_page.php">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-s"><span class="glyphicon glyphicon-search"></span></button>
+        </form>
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
+        <li class="active"><a href="index.html">Forside</a></li>
+        <li><a href="about.html">Om oss</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
       </ul>
+        
     </div>
   </div>
 </nav>
     
 <main>
     <div class="container">
-         <h2>Alt av teknologi og gadgets samlet på et sted</h2>
+         <h2>Det beste av teknologi, kjøretøy, sykler og gadgets samlet på et sted</h2>
          <div id="myCarousel" class="carousel slide" data-ride="carousel">
      <!-- Indicators -->
              <ol class="carousel-indicators">
@@ -52,7 +58,7 @@
      <div class="carousel-inner">
     
          <div class="item active bilderamme">
-             <img src="images/fatbike.jpeg" alt="Los Angeles" style="width:100%;">
+             <img src="images/fatbike.jpeg" alt="Los Angeles">
              <div class="carousel-caption">
                  <h3>Sykler</h3>
                  <p>El-sykler, fatbikes, 3-hjulssykler med mer</p>
@@ -60,7 +66,7 @@
          </div>
          
          <div class="item bilderamme">
-             <img src="images/atv.jpeg" alt="Chicago" style="width:100%;">
+             <img src="images/atv.jpeg" alt="Chicago">
              <div class="carousel-caption">
                  <h3>Elektriske kjøretøy for barn og voksne</h3>
                  <p>ATV, biler, sparkesykler og mer</p>
@@ -68,7 +74,7 @@
            </div>
          
            <div class="item bilderamme">
-             <img src="images/leker.jpeg" alt="New York" style="width:100%;">
+             <img src="images/leker.jpeg" alt="New York">
              <div class="carousel-caption">
                <h3>Leketøy og elektronikk</h3>
                <p>Leketøy, roboter og elektronikk for alle aldre</p>
@@ -87,45 +93,44 @@
        </a>
      </div>
 </div>
-        <div class="container">
-    <div class="card flex-cont">
-        
-            <div class="card-body flex-item">
+    <div class="container">
+        <div class="card flex-cont">
+            <div class="card-body flex-item card1">
                 <h4 class="card-title text-center">Sykler</h4>
-                <p class="card-text">Klikk her for å se vårt imponerende utvalg av sykler</p>
+                <p class="card-text">El-sykler, fatbikes, 3-hjulssykler med mer</p>
                 <br>
                 <div class="text-center">
-                    <a href="#" class="btn btn-primary ">Se sykler</a>
+                    <a href="sykler.html" class="btn btn-success ">Se sykler</a>
                 </div>
             </div>
-            <div class="card-body flex-item">
+            <div class="card-body flex-item card2">
                 <h4 class="card-title text-center">Kjøretøy</h4>
-                <p class="card-text">Klikk her for å se vårt utvalg av elektriske kjøretøy</p>
+                <p class="card-text">ATV, biler, sparkesykler og mer</p>
                 <br>
                 <div class="text-center">
-                    <a href="#" class="btn btn-primary">Se kjøretøy</a>
+                    <a href="biler.html" class="btn btn-success">Se kjøretøy</a>
                 </div>
             </div>
-        <div class="card-body flex-item">
+        <div class="card-body flex-item card3">
                 <h4 class="card-title text-center">Leker og elektronikk</h4>
-                <p class="card-text">Klikk her for å se vårt utvalg av leker og elektronikk</p>
-            
-                <div class="text-center">
-                    <a href="#" class="btn btn-primary ">Se leker</a>
-                </div>
-            </div>
-        <div class="card-body flex-item">
-                <h4 class="card-title text-center">Tilbud</h4>
-                <p class="card-text">Se hvilke varer som er på tilbud</p>
-            <br>
+                <p class="card-text">Leketøy, roboter og elektronikk for alle aldre</p>
             <br>
                 <div class="text-center">
-                    <a href="#" class="btn btn-primary ">Se tilbud</a>
+                    <a href="leker.html" class="btn btn-success ">Se leker</a>
                 </div>
             </div>
         </div>
  </div>
     </main>
+    <div class="container undertekst">
+        <h2>Arngren.net - alt av teknologi og gadgets</h2>
+        <p>På arngren.net kan du finne alt du kan tenke deg av teknologi, gadets, leker elektronikk og mye mer!</p>
+        <p>Det finnes mange butikker som tilbyr mange forskjellige produkter, og vår jobb er å samle det beste på et sted.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="container">
+        
+    </div>
 	<footer></footer>
 	<script type="text/javascript" src=""></script>
 </body>

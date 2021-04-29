@@ -24,13 +24,120 @@ h3 {
     border: 1px solid black;
     border-radius: 20px;
     margin: 0 10px;
-    padding: 10px
+    padding: 10px;
+    text-align: center;
 }
 
 .bilderamme {
-    height: 400px;
+    height: 500px;
     overflow: hidden;
+    
 }
+img {
+    display: block;
+    width:60%;
+    margin: 0 auto;
+    padding: 20px 0 30px 0
+}
+
+.card1 {
+    background-color: #f8f8f8
+}
+
+.card2 {
+    background-color: #f8f8f8
+}
+
+.card3 {
+    background-color: #f8f8f8;
+}
+
+.card-body:hover {
+    cursor: pointer;
+    opacity: 0.99;
+}
+
+.card-text {
+    height: 50px;
+}
+
+.undertekst::before {
+    border-top: 2px solid black;
+    width: 100%;
+    margin: 40px 0 40px 0;
+}
+
+.undertekst::after {
+    border-top: 2px solid black;
+    width: 100%;
+    margin: 40px 0 40px 0;
+}
+
+.selected {
+    background-color: #d7e4e4;
+    
+}
+
+.product-wrap, .product-wrap2 {
+    display: flex;
+}
+
+.product-wrap2 {
+    flex-direction: row-reverse;
+}
+
+.image-wrap {
+    min-height: 140px;
+}
+.product {
+    flex: 1;
+}
+
+.product {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.product-text {
+    height: 80px;
+}
+
+.knapp-wrap {
+    text-align: center;
+}
+.knapp {
+    border-radius: 15px;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+   /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+
 
 @media only screen and (max-width: 768px) {
     .flex-cont {
@@ -45,5 +152,35 @@ h3 {
     margin: 10px 10px;
     padding: 10px
     }
+    .card-text {
+    height: 20px;
+    }
+    
+    .product-wrap, .product-wrap2 {
+    flex-direction: column;
+        margin: 0 50px;
+    }
+    .product-wrap img {
+        width: 30%;
+    }
+
+
+.product {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.product-text {
+    height: 20px;
+}
+
+.knapp-wrap {
+    text-align: center;
+}
+.knapp {
+    border-radius: 15px;
+}
     
 }

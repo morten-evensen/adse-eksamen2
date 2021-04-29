@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>Example Title</title>
+	<meta name="author" content="Your Name">
+	<meta name="description" content="Example description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" type="image/x-icon" href=""/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+
+<body>
+    
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Arngren.net</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+     <form class="navbar-form navbar-right" action="/action_page.php">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-s"><span class="glyphicon glyphicon-search"></span></button>
+        </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Forside</a></li>
+        <li><a href="about.html">Om oss</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+      </ul>
+        
+    </div>
+  </div>
+</nav>
+    <div class="container">
+         <h2>Kjøretøy</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+     <!-- Indicators -->
+             <ol class="carousel-indicators">
+                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                 <li data-target="#myCarousel" data-slide-to="1"></li>
+                 <li data-target="#myCarousel" data-slide-to="2"></li>
+             </ol>
+     <!-- Wrapper for slides -->
+     <div class="carousel-inner">
+    
+         <div class="item active bilderamme">
+             <img src="images/atv.jpeg" alt="Los Angeles">
+             <div class="carousel-caption">
+                 <h3>Elektrisk ATV</h3>
+                 <p>Kule ATV'er </p>
+             </div>
+         </div>
+         
+         <div class="item bilderamme">
+             <img src="images/bil2.jpeg" alt="Chicago">
+             <div class="carousel-caption">
+                 <h3>Elektriske kjøretøy til barn</h3>
+                 <p>ATV'er som også barn kan kjøre</p>
+             </div>
+           </div>
+         
+           <div class="item bilderamme">
+             <img src="images/bil3.jpeg" alt="New York">
+             <div class="carousel-caption">
+               <h3>Offroad og på vei</h3>
+               <p>Vi har kjøretøyer til offroad og vanlig vei</p>
+             </div>
+           </div>
+         </div>
+    
+     <!-- Left and right controls -->
+       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+         <span class="glyphicon glyphicon-chevron-left"></span>
+         <span class="sr-only">Previous</span>
+       </a>
+       <a class="right carousel-control" href="#myCarousel" data-slide="next">
+         <span class="glyphicon glyphicon-chevron-right"></span>
+         <span class="sr-only">Next</span>
+       </a>
+     </div>
+    </div>
+    <div class="container">
+        <div class="card flex-cont">
+            <div class="card-body flex-item card1">
+                <h4 class="card-title text-center">Sykler</h4>
+                <p class="card-text">El-sykler, fatbikes, 3-hjulssykler med mer</p>
+                <br>
+                <div class="text-center">
+                    <a href="sykler.html" class="btn btn-success ">Se sykler</a>
+                </div>
+            </div>
+            <div class="card-body flex-item card2 selected">
+                <h4 class="card-title text-center">Kjøretøy</h4>
+                <p class="card-text">ATV, biler, sparkesykler og mer</p>
+                <br>
+                <div class="text-center">
+                    <a href="biler.html" class="btn btn-success">Se kjøretøy</a>
+                </div>
+            </div>
+        <div class="card-body flex-item card3">
+                <h4 class="card-title text-center">Leker og elektronikk</h4>
+                <p class="card-text">Leketøy, roboter og elektronikk for alle aldre</p>
+            <br>
+                <div class="text-center">
+                    <a href="leker.html" class="btn btn-success ">Se leker</a>
+                </div>
+            </div>
+        </div>
+ </div>
+    <div class="container undertekst">
+        <h2>Elektriske kjøretøy for barn og voksne</h2>
+        <p>Vi har et rikt utvalg av elektriske kjøretøy og ATV'er for både bran og voksne</p>
+        <div class="product-wrap">
+            <div class="product">
+                <div class="image-wrap">
+                    <img src="images/bil2.jpeg">
+                </div>
+                <h4>ATV 4500x</h4>
+                <p>Pris: 15000,-</p>
+                <p class="product-text">ATV 4500x takler alle forhold og underlag</p>
+                <div class="knapp-wrap">
+                    <a class="btn btn-success knapp" href="#">Se mer og bestill</a>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image-wrap">
+                    <img src="images/bil3.jpeg">
+                </div>
+                <h4>CMD 9800</h4>
+                <p>Pris: 22499,-</p>
+                <p class="product-text">For den ultimate ATV-opplevelsen</p>
+                <div class="knapp-wrap">
+                    <a class="btn btn-success knapp" href="#">Se mer og bestill</a>
+                </div>
+            </div>
+            
+            <div class="product">
+                <div class="image-wrap">
+                    <img src="images/atv6.png">
+                </div>
+                <h4>KidzATV 9000</h4>
+                <p>8999,-</p>
+                <p class="product-text">ATV for de minste! Fra 5 år og oppover</p>
+                <div class="knapp-wrap">
+                    <a class="btn btn-success knapp" href="#">Se mer og bestill</a>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image-wrap">
+                    <img src="images/atv5.jpeg">
+                </div>
+                <h4>Landroller 85Z</h4>
+                <p>10999,-</p>
+                <p class="product-text">En av våre sprekeste offroadere</p>
+                <div class="knapp-wrap">
+                    <a class="btn btn-success knapp" href="#">Se mer og bestill</a>
+                </div>
+            </div>
+        </div>
+        <div class="product-wrap2">
+            <div class="product">
+                <div class="image-wrap">
+                    <img src="images/bil2.jpeg">
+                </div>
+                <h4>ATV 4500x</h4>
+                <p>Pris: 15000,-</p>
+                <p class="product-text">ATV 4500x takler alle forhold og underlag</p>
+                <div class="knapp-wrap">
+                    <a class="btn btn-success knapp" href="#">Se mer og bestill</a>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image-wrap">
+                    <img src="images/bil3.jpeg">
+                </div>
+                <h4>CMD 9800</h4>
+                <p>Pris: 22499,-</p>
+                <p class="product-text">For den ultimate ATV-opplevelsen</p>
+                <div class="knapp-wrap">
+                    <a class="btn btn-success knapp" href="#">Se mer og bestill</a>
+                </div>
+            </div>
+            
+            <div class="product">
+                <div class="image-wrap">
+                    <img src="images/atv6.png">
+                </div>
+                <h4>KidzATV 9000</h4>
+                <p>8999,-</p>
+                <p class="product-text">ATV for de minste! Fra 5 år og oppover</p>
+                <div class="knapp-wrap">
+                    <a class="btn btn-success knapp" href="#">Se mer og bestill</a>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image-wrap">
+                    <img src="images/atv5.jpeg">
+                </div>
+                <h4>Landroller 85Z</h4>
+                <p>10999,-</p>
+                <p class="product-text">En av våre sprekeste offroadere</p>
+                <div class="knapp-wrap">
+                    <a class="btn btn-success knapp" href="#">Se mer og bestill</a>
+                </div>
+            </div>
+        </div>
+        <div class="product-wrap">
+            <div class="product">
+                <div class="image-wrap">
+                    <img src="images/bil2.jpeg">
+                </div>
+                <h4>ATV 4500x</h4>
+                <p>Pris: 15000,-</p>
+                <p class="product-text">ATV 4500x takler alle forhold og underlag</p>
+                <div class="knapp-wrap">
+                    <a class="btn btn-success knapp" href="#">Se mer og bestill</a>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image-wrap">
+                    <img src="images/bil3.jpeg">
+                </div>
+                <h4>CMD 9800</h4>
+                <p>Pris: 22499,-</p>
+                <p class="product-text">For den ultimate ATV-opplevelsen</p>
+                <div class="knapp-wrap">
+                    <a class="btn btn-success knapp" href="#">Se mer og bestill</a>
+                </div>
+            </div>
+            
+            <div class="product">
+                <div class="image-wrap">
+                    <img src="images/atv6.png">
+                </div>
+                <h4>KidzATV 9000</h4>
+                <p>8999,-</p>
+                <p class="product-text">ATV for de minste! Fra 5 år og oppover</p>
+                <div class="knapp-wrap">
+                    <a class="btn btn-success knapp" href="#">Se mer og bestill</a>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image-wrap">
+                    <img src="images/atv5.jpeg">
+                </div>
+                <h4>Landroller 85Z</h4>
+                <p>10999,-</p>
+                <p class="product-text">En av våre sprekeste offroadere</p>
+                <div class="knapp-wrap">
+                    <a class="btn btn-success knapp" href="#">Se mer og bestill</a>
+                </div>
+            </div>
+        </div>
+        <div class="product-wrap2">
+            <div class="product">
+                <div class="image-wrap">
+                    <img src="images/bil2.jpeg">
+                </div>
+                <h4>ATV 4500x</h4>
+                <p>Pris: 15000,-</p>
+                <p class="product-text">ATV 4500x takler alle forhold og underlag</p>
+                <div class="knapp-wrap">
+                    <a class="btn btn-success knapp" href="#">Se mer og bestill</a>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image-wrap">
+                    <img src="images/bil3.jpeg">
+                </div>
+                <h4>CMD 9800</h4>
+                <p>Pris: 22499,-</p>
+                <p class="product-text">For den ultimate ATV-opplevelsen</p>
+                <div class="knapp-wrap">
+                    <a class="btn btn-success knapp" href="#">Se mer og bestill</a>
+                </div>
+            </div>
+            
+            <div class="product">
+                <div class="image-wrap">
+                    <img src="images/atv6.png">
+                </div>
+                <h4>KidzATV 9000</h4>
+                <p>8999,-</p>
+                <p class="product-text">ATV for de minste! Fra 5 år og oppover</p>
+                <div class="knapp-wrap">
+                    <a class="btn btn-success knapp" href="#">Se mer og bestill</a>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image-wrap">
+                    <img src="images/atv5.jpeg">
+                </div>
+                <h4>Landroller 85Z</h4>
+                <p>10999,-</p>
+                <p class="product-text">En av våre sprekeste offroadere</p>
+                <div class="knapp-wrap">
+                    <a class="btn btn-success knapp" href="#">Se mer og bestill</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    
+</html>
