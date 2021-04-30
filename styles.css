@@ -29,7 +29,7 @@ h3 {
 }
 
 .bilderamme {
-    height: 500px;
+    height: 400px;
     overflow: hidden;
     
 }
@@ -73,10 +73,7 @@ img {
     margin: 40px 0 40px 0;
 }
 
-.selected {
-    background-color: #d7e4e4;
-    
-}
+
 
 .product-wrap, .product-wrap2 {
     display: flex;
@@ -98,6 +95,23 @@ img {
     border-radius: 15px;
     margin: 10px;
     padding: 10px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.card1, .card2, .card3 {
+    box-shadow: 1px 1px 2px black;
+}
+
+
+
+.selected {
+    background-color: #d7e4e4;
+    box-shadow: none;
+}
+
+.product:hover {
+    
+    cursor: pointer;
 }
 
 .product-text {
@@ -109,6 +123,12 @@ img {
 }
 .knapp {
     border-radius: 15px;
+}
+
+.produkt-bilde {
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
 }
 
 input[type=text], select, textarea {
@@ -240,6 +260,12 @@ input[type=submit]:hover {
 }
 .knapp {
     border-radius: 15px;
+}
+    
+    .bilderamme {
+    height: 250px;
+    overflow: hidden;
+    
 }
     
 }
